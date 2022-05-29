@@ -1,0 +1,19 @@
+system:
+    port: 9090
+    value: 14
+    in_vec:
+      - 10
+      - 20
+    in_list: [1,2,3,4,5,6,7]
+    in_set: [1,2,3,4,54,5]
+    in_unset: [1,2,3,4,54,5]
+class:
+  person:
+    name: lisi
+    id: 1882
+    age: 183
+  in_map:
+    k1:
+      - name: lisi
+        age: 11
+        id: 11

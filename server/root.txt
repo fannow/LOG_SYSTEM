@@ -1,0 +1,14 @@
+2022:05:29 09:47:24	[INFO]	 name=logs des=logs config ty=St3setI9LogDefineSt4lessIS0_ESaIS0_EE val=- &1
+  name: root
+  level: INFO
+  formater: "%d%T%m%n"
+  addernders:
+    - *1
+    - *1
+- &2
+  name: system
+  level: DEBUG
+  formater: "%d%T%m%n"
+  addernders:
+    - *2
+    - *2
